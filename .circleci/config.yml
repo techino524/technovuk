@@ -6,6 +6,3 @@ jobs:
             - image: nats-streaming:latest
     steps:
       - checkout
-      - run:
-          name: nats-streaming
-          command: nat-streaming-server -m 8222
