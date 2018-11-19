@@ -48,5 +48,5 @@ Temporary Items
 ansible-django-stack/
 
 # gitkeep
-.circleci/*  
-!.gitkeep
+#.circleci/*  
+#!.gitkeep
