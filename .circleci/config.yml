@@ -6,3 +6,5 @@ jobs:
             - image: nats-streaming:latest
     steps:
       - checkout
+      - setup_remote_docker
+      - docker build .
