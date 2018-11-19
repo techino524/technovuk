@@ -46,3 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 ansible-django-stack/
+
+# gitkeep
+.circleci/*  
+!.gitkeep
