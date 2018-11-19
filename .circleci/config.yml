@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-            - image: nat-streaming-server:latest
+            - image: nats-streaming:latest
     steps:
       - checkout
       - run:
